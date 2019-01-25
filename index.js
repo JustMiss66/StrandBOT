@@ -134,4 +134,4 @@ bot.on("guildMemberRemove", function(member) {
 
 bot.login(process.env.token);
 
-rltoken);
+
