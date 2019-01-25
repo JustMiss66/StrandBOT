@@ -132,4 +132,6 @@ bot.on("guildMemberRemove", function(member) {
     console.log("[Strandbot Log] " + member.user.username + " has left Strand's Public Discord!")
 });
 
-bot.login(config.token);
+bot.login(process.env.token);
+
+rltoken);
